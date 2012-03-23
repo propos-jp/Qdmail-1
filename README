@@ -1,3 +1,10 @@
 Qdmail ( http://hal456.net/qdmail/ ) のCakePHP2.x対応版です。
 バージョン1.2.6bを元に改変しています。
 ※ Qdmail作者のspokさんに許可を得て公開しています
+
+smtp送信をする場合、QdsmtpComponentを使うと便利です。
+CakePHP2.x対応版が https://github.com/spark-lab/Qdsmtp にあります。
+
+- QdsmtpComponentを使う場合、
+https://gist.github.com/2166881
+にあるように、QdmailComponentクラスのstartupメソッドを書き換える必要があります。
